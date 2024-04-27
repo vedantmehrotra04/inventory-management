@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { useSelector, useDispatch } from 'react-redux';
 import styled from 'styled-components'
@@ -22,7 +21,6 @@ const style = {
 
 export default function BasicModal() {
   const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const {isVisible, props} = useSelector(state => state.Modal);
   const [values, setValues] = useState({});

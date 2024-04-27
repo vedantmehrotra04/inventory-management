@@ -4,13 +4,11 @@ import {
     border,
     color,
     flexbox,
-    grid,
     layout,
     letterSpacing,
     position,
     shadow,
     space,
-    system,
     typography,
 } from 'styled-system';
 
